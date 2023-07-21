@@ -4,12 +4,11 @@
 #include <boost/numeric/ublas/matrix.hpp>
 #include <boost/numeric/ublas/io.hpp>
 
-//using namespace std;
 using namespace boost::numeric::ublas;
 
-const size_t l = 25000;
-const size_t m = 12000;
-const size_t n = 36000;
+const size_t l = 250;
+const size_t m = 120;
+const size_t n = 360;
 
 matrix<int> aMatrix(l, m);
 matrix<int> bMatrix(m, n);
@@ -58,6 +57,7 @@ int matrixMult(){
 
 
 int main (int argc, char** argv){
+
   matrixFill(paMatrix);
   matrixFill(pbMatrix);
   matrixMult(); 

@@ -37,11 +37,12 @@
   "C_Cpp_Runner.warningsAsError": false,
   "C_Cpp_Runner.compilerArgs": [],
   "C_Cpp_Runner.linkerArgs": [],
-  "C_Cpp_Runner.includePaths": [],
+  "C_Cpp_Runner.includePaths": [
+    "C:/lib/Boost/boost_1_82_0"
+  ],
   "C_Cpp_Runner.includeSearch": [
     "*",
-    "**/*",
-    "Boost/**"
+    "**/*"
   ],
   "C_Cpp_Runner.excludeSearch": [
     "**/build",
@@ -55,5 +56,6 @@
   "C_Cpp_Runner.useUndefinedSanitizer": false,
   "C_Cpp_Runner.useLeakSanitizer": false,
   "C_Cpp_Runner.showCompilationTime": false,
-  "C_Cpp_Runner.useLinkTimeOptimization": false
+  "C_Cpp_Runner.useLinkTimeOptimization": false,
+  "cmake.configureArgs": []
 }
